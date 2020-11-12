@@ -1,0 +1,51 @@
+{
+  "name": "comfortech-server",
+  "version": "1.0.0",
+  "description": "comfortech backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www --max_old_space_size=827 > /var/log/nutaan-server/express.log 2>&1 &"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "nutaan"
+  ],
+  "author": "dana46",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saptorshi/nutaan-server/issues"
+  },
+  "homepage": "",
+  "dependencies": {
+    "await-to-js": "^2.1.1",
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "bvalid": "^1.0.2",
+    "chalk": "^3.0.0",
+    "cookie-parser": "^1.4.5",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "express-validator": "^5.3.1",
+    "html-compressor": "^1.0.1",
+    "joi": "^17.2.1",
+    "joi-objectid": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.6",
+    "mongoose-validator": "^2.1.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.4.6",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "parse-error": "^0.2.0",
+    "uuid": "^7.0.2",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.4.2"
+  }
+}
